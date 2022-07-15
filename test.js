@@ -19,5 +19,5 @@ test("One Yen 127.9", function(){
     const { fromDollarToYen  } = require('./app.js')
     
     // hago mi comparacion (la prueba)
-    expect(fromDollarToYen (10)).toBe(1279); //1 euro son 1.2 dolares, entonces 3.5 euros deberian ser = (3.5 * 1.2)
+    expect(fromDollarToYen (10)).toBe(1279); 
 })
